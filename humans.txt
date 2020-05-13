@@ -1,0 +1,13 @@
+﻿/* ME */
+	Philipp Paul Köhler
+	Site: https://koehler-philipp.de
+	Twitter: phlppk
+	Location: Herrsching, Germany
+
+/* SITE */
+	Last update: 2020/03/13
+	Doctype: HTML5
+	Standards: HTML5, CSS3, Javascript
+	IDE: Sublime Text
+
+Hosted on Github
