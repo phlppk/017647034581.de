@@ -1,10 +1,8 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset=utf-8 />
+<html lang=en>
+  <link href=data:, rel=icon>
     <title>Philipp Paul Köhler</title>
-    <link href=data:, rel=icon>
-    <style type=text/css> body{
+    <style> body{
       margin:0;
       padding:0;
       margin-top:5%;
@@ -45,7 +43,6 @@
         background:#000;
       }
     </style>
-  </head>
   <body>
     <address id="vcard" class="vcard">
       <p id="text">
@@ -68,10 +65,8 @@
       </p>
     </address>
     <a class="footer" href="https://koehler-philipp.de">by Philipp Paul Köhler</a>
-    <script type=text/javascript> function init(){
+    <script> function init(){
         var e=new Array("#A61A20", "#C72026", "#CC6224", "#D28E1E", "#9EA11C", "#8F8A36", "#0A6535", "#65A240", "#0A929A", "#0A7EAA", "#0A6EA7", "#0A5292", "#0B3C76", "#432F7E", "#622C7D", "#8B267B", "#6A5792", "#C7155E", "#A60A59", "#0A0A0A"), d=Math.min(window.innerHeight, window.innerWidth / 4), f=Math.min(window.innerWidth, window.innerHeight * 4);
         vcard=document.getElementById("vcard"), document.body.style.marginTop=d / 10 + "px", vcard.style.background=e[Math.floor(Math.random() * e.length)], vcard.style.height=d * 4 / 5 + "px", vcard.style.width=f * 10 / 12 + "px", vcard.style.paddingLeft=f / 24 + "px", vcard.style.paddingRight=f / 24 + "px", document.getElementById("text").style.fontSize=d * 0.24 + "px" }
       window.onload=init, window.onresize=init;
     </script>
-  </body>
-</html>
